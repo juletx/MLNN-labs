@@ -1,0 +1,78 @@
+
+###########################################################
+########## Essential Software          ####################
+###########################################################
+
+
+# Instalation jupyter notebooks
+http://jupyter.readthedocs.io/en/latest/install.html
+
+# Instalation scikit-learn
+http://scikit-learn.org/stable/install.html
+
+# Other essential python packages
+sudo pip3 install matplotlib neupy somoclu pandas scikit-image networkx
+sudo pip3 install hdbscan bluepyopt pydot pydotplus pystruct tensorflow    
+sudo pip2 install pattern
+
+###########################################################
+########## Other software deeplearning ####################
+###########################################################
+
+# On how to install deep learning software (see first this)
+https://gist.github.com/AlexanderFabisch/6d826b62af87e3c0ac6f
+http://www.pyimagesearch.com/2016/07/18/installing-keras-for-deep-learning/
+
+# Optional for GPUs users
+sudo pip3 install tensorflow-gpu
+
+# theano
+sudo pip3 install -r https://raw.githubusercontent.com/Lasagne/Lasagne/master/requirements.txt
+
+# Lasagne
+sudo pip3 install https://github.com/Lasagne/Lasagne/archive/master.zip
+
+# keras
+sudo pip3 install keras
+
+# caffe
+http://caffe.berkeleyvision.org/install_apt.html
+(After installing dependencies and compiling, do "make pycaffe" to install python wrapper)
+
+# neon
+sudo pip install neon
+
+# scikit-neuralnetwork
+http://scikit-neuralnetwork.readthedocs.io/en/latest/index.html
+
+sudo apt-get install luarocks
+git clone https://github.com/torch/distro.git ~/torch --recursive
+cd ~/torch; bash install-deps;
+./install.sh
+luarocks install nn
+
+# pytorch
+https://github.com/apaszke/pytorch-dist
+sudo python setup.py install
+
+
+###########################################################
+########## Other recommended software ####################
+###########################################################
+
+sudo pip3 install pybrain bayespy PyStruct pgmpy pyclustering thorns brian2 PyNN
+sudo pip3 install gym[atari]
+
+sudo pip3 install Pillow progressbar2 pydot-ng retrying tabulate sacred sematch PyDictionary itertools SOMpy
+sudo pip3 install pandas-datareader django bokeh vispy cvu pyfac sumproduct graphviz linkpred metaknowledge python-igraph
+sudo pip3 install hiveplot statsmodels ARS tpot filterpy python-twitter qutip nxviz
+
+sudo pip2 importlib
+
+
+
+
+
+
+
+
