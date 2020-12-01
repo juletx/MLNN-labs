@@ -1,0 +1,2 @@
+model_checkpoint_path: "chinese_DAE1"
+all_model_checkpoint_paths: "chinese_DAE1"
