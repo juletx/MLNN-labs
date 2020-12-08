@@ -1,4 +1,12 @@
+# vscode
 /.vscode
 
+# jupyter notebook
 .ipynb_checkpoints
 __pycache__
+
+# tensorflow
+checkpoint
+*.data-00000-of-00001
+*.index
+*.meta
