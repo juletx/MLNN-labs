@@ -1,8 +1,6 @@
-
 ###########################################################
 ########## Essential Software          ####################
 ###########################################################
-
 
 # Instalation jupyter notebooks
 http://jupyter.readthedocs.io/en/latest/install.html
@@ -55,7 +53,6 @@ luarocks install nn
 https://github.com/apaszke/pytorch-dist
 sudo python setup.py install
 
-
 ###########################################################
 ########## Other recommended software ####################
 ###########################################################
@@ -68,11 +65,3 @@ sudo pip3 install pandas-datareader django bokeh vispy cvu pyfac sumproduct grap
 sudo pip3 install hiveplot statsmodels ARS tpot filterpy python-twitter qutip nxviz
 
 sudo pip2 importlib
-
-
-
-
-
-
-
-
